@@ -1,0 +1,20 @@
+query ListLocations {
+  locations {
+    edges {
+      node {
+        id
+        coordinate
+        name
+        rawAddress
+        cabinets {
+          id
+          count
+          game {
+            id
+            name
+          }
+        }
+      }
+    }
+  }
+}

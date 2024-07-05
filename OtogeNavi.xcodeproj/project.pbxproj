@@ -3,22 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5128A402C065DC000CF1A26 /* Extension+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5128A3F2C065DC000CF1A26 /* Extension+CoreLocation.swift */; };
+		B5614BC32C1F56AF00884563 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = B5614BC22C1F56AF00884563 /* Apollo */; };
+		B5614BC52C1F56AF00884563 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = B5614BC42C1F56AF00884563 /* ApolloWebSocket */; };
+		B5614BC82C1F56C300884563 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = B5614BC62C1F56C300884563 /* schema.graphqls */; };
+		B5614BCA2C1F56E900884563 /* query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B5614BC92C1F56E900884563 /* query.graphql */; };
+		B5614BCD2C1F570900884563 /* OtogeNaviAPI in Frameworks */ = {isa = PBXBuildFile; productRef = B5614BCC2C1F570900884563 /* OtogeNaviAPI */; };
+		B58425412C38323500FB62E8 /* OtogeNaviMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58425402C38323500FB62E8 /* OtogeNaviMapView.swift */; };
 		B5B64C852C04E0E700FCDF90 /* OtogeNaviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64C842C04E0E700FCDF90 /* OtogeNaviApp.swift */; };
 		B5B64C872C04E0E700FCDF90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64C862C04E0E700FCDF90 /* ContentView.swift */; };
 		B5B64C892C04E0E900FCDF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B64C882C04E0E900FCDF90 /* Assets.xcassets */; };
 		B5B64C8C2C04E0E900FCDF90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B64C8B2C04E0E900FCDF90 /* Preview Assets.xcassets */; };
+		B5B64D072C05CE6000FCDF90 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64D062C05CE6000FCDF90 /* PlaceView.swift */; };
+		B5B64D0A2C05D34800FCDF90 /* Glur in Frameworks */ = {isa = PBXBuildFile; productRef = B5B64D092C05D34800FCDF90 /* Glur */; };
+		B5B64D312C05D62000FCDF90 /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B5B64D302C05D62000FCDF90 /* SwifterSwift */; };
+		B5B64D772C05F10100FCDF90 /* VariableBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64D762C05F10100FCDF90 /* VariableBlurView.swift */; };
+		B5B64D7A2C06537A00FCDF90 /* ClusterMap in Frameworks */ = {isa = PBXBuildFile; productRef = B5B64D792C06537A00FCDF90 /* ClusterMap */; };
+		B5B64D7C2C06537A00FCDF90 /* ClusterMapSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5B64D7B2C06537A00FCDF90 /* ClusterMapSwiftUI */; };
+		B5B64D7E2C06547700FCDF90 /* ContentView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64D7D2C06547700FCDF90 /* ContentView+DataSource.swift */; };
+		B5B64D812C06564000FCDF90 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = B5B64D802C06564000FCDF90 /* Toast */; };
+		B5B64D842C065A7A00FCDF90 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64D832C065A7A00FCDF90 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5128A3F2C065DC000CF1A26 /* Extension+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CoreLocation.swift"; sourceTree = "<group>"; };
+		B5614BC62C1F56C300884563 /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
+		B5614BC92C1F56E900884563 /* query.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = query.graphql; sourceTree = "<group>"; };
+		B58425402C38323500FB62E8 /* OtogeNaviMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtogeNaviMapView.swift; sourceTree = "<group>"; };
 		B5B64C812C04E0E700FCDF90 /* OtogeNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtogeNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B64C842C04E0E700FCDF90 /* OtogeNaviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtogeNaviApp.swift; sourceTree = "<group>"; };
 		B5B64C862C04E0E700FCDF90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5B64C882C04E0E900FCDF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B64C8B2C04E0E900FCDF90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5B64D062C05CE6000FCDF90 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		B5B64D762C05F10100FCDF90 /* VariableBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableBlurView.swift; sourceTree = "<group>"; };
+		B5B64D7D2C06547700FCDF90 /* ContentView+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView+DataSource.swift"; sourceTree = "<group>"; };
+		B5B64D832C065A7A00FCDF90 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +50,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B64D312C05D62000FCDF90 /* SwifterSwift in Frameworks */,
+				B5614BC32C1F56AF00884563 /* Apollo in Frameworks */,
+				B5614BCD2C1F570900884563 /* OtogeNaviAPI in Frameworks */,
+				B5B64D7A2C06537A00FCDF90 /* ClusterMap in Frameworks */,
+				B5B64D7C2C06537A00FCDF90 /* ClusterMapSwiftUI in Frameworks */,
+				B5614BC52C1F56AF00884563 /* ApolloWebSocket in Frameworks */,
+				B5B64D812C06564000FCDF90 /* Toast in Frameworks */,
+				B5B64D0A2C05D34800FCDF90 /* Glur in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5614BC72C1F56C300884563 /* graphql */ = {
+			isa = PBXGroup;
+			children = (
+				B5614BC62C1F56C300884563 /* schema.graphqls */,
+				B5614BC92C1F56E900884563 /* query.graphql */,
+			);
+			path = graphql;
+			sourceTree = "<group>";
+		};
 		B5B64C782C04E0E700FCDF90 = {
 			isa = PBXGroup;
 			children = (
+				B5614BC72C1F56C300884563 /* graphql */,
 				B5B64C832C04E0E700FCDF90 /* OtogeNavi */,
 				B5B64C822C04E0E700FCDF90 /* Products */,
+				B5B64C9C2C050F9400FCDF90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +94,16 @@
 		B5B64C832C04E0E700FCDF90 /* OtogeNavi */ = {
 			isa = PBXGroup;
 			children = (
+				B5B64D752C05F0F800FCDF90 /* Views */,
 				B5B64C842C04E0E700FCDF90 /* OtogeNaviApp.swift */,
 				B5B64C862C04E0E700FCDF90 /* ContentView.swift */,
+				B5B64D7D2C06547700FCDF90 /* ContentView+DataSource.swift */,
+				B5B64D832C065A7A00FCDF90 /* LocationManager.swift */,
+				B5128A3F2C065DC000CF1A26 /* Extension+CoreLocation.swift */,
+				B5B64D062C05CE6000FCDF90 /* PlaceView.swift */,
 				B5B64C882C04E0E900FCDF90 /* Assets.xcassets */,
 				B5B64C8A2C04E0E900FCDF90 /* Preview Content */,
+				B58425402C38323500FB62E8 /* OtogeNaviMapView.swift */,
 			);
 			path = OtogeNavi;
 			sourceTree = "<group>";
@@ -65,6 +114,21 @@
 				B5B64C8B2C04E0E900FCDF90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5B64C9C2C050F9400FCDF90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B64D752C05F0F800FCDF90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5B64D762C05F10100FCDF90 /* VariableBlurView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +147,16 @@
 			dependencies = (
 			);
 			name = OtogeNavi;
+			packageProductDependencies = (
+				B5B64D092C05D34800FCDF90 /* Glur */,
+				B5B64D302C05D62000FCDF90 /* SwifterSwift */,
+				B5B64D792C06537A00FCDF90 /* ClusterMap */,
+				B5B64D7B2C06537A00FCDF90 /* ClusterMapSwiftUI */,
+				B5B64D802C06564000FCDF90 /* Toast */,
+				B5614BC22C1F56AF00884563 /* Apollo */,
+				B5614BC42C1F56AF00884563 /* ApolloWebSocket */,
+				B5614BCC2C1F570900884563 /* OtogeNaviAPI */,
+			);
 			productName = OtogeNavi;
 			productReference = B5B64C812C04E0E700FCDF90 /* OtogeNavi.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,14 @@
 				Base,
 			);
 			mainGroup = B5B64C782C04E0E700FCDF90;
+			packageReferences = (
+				B5B64D082C05D34800FCDF90 /* XCRemoteSwiftPackageReference "Glur" */,
+				B5B64D2F2C05D62000FCDF90 /* XCRemoteSwiftPackageReference "SwifterSwift" */,
+				B5B64D782C06537A00FCDF90 /* XCRemoteSwiftPackageReference "ClusterMap" */,
+				B5B64D7F2C06564000FCDF90 /* XCRemoteSwiftPackageReference "toast-swift" */,
+				B5614BC12C1F56AF00884563 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				B5614BCB2C1F570900884563 /* XCLocalSwiftPackageReference "OtogeNaviAPI" */,
+			);
 			productRefGroup = B5B64C822C04E0E700FCDF90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5614BCA2C1F56E900884563 /* query.graphql in Resources */,
 				B5B64C8C2C04E0E900FCDF90 /* Preview Assets.xcassets in Resources */,
+				B5614BC82C1F56C300884563 /* schema.graphqls in Resources */,
 				B5B64C892C04E0E900FCDF90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +222,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B64C872C04E0E700FCDF90 /* ContentView.swift in Sources */,
+				B5B64D072C05CE6000FCDF90 /* PlaceView.swift in Sources */,
+				B5128A402C065DC000CF1A26 /* Extension+CoreLocation.swift in Sources */,
+				B5B64D772C05F10100FCDF90 /* VariableBlurView.swift in Sources */,
+				B5B64D7E2C06547700FCDF90 /* ContentView+DataSource.swift in Sources */,
+				B5B64D842C065A7A00FCDF90 /* LocationManager.swift in Sources */,
+				B58425412C38323500FB62E8 /* OtogeNaviMapView.swift in Sources */,
 				B5B64C852C04E0E700FCDF90 /* OtogeNaviApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +365,13 @@
 				DEVELOPMENT_TEAM = SY8Y8N4TPM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "OtogeNavi uses your location to provide Arcade information around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +396,13 @@
 				DEVELOPMENT_TEAM = SY8Y8N4TPM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "OtogeNavi uses your location to provide Arcade information around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +438,98 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B5614BCB2C1F570900884563 /* XCLocalSwiftPackageReference "OtogeNaviAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = OtogeNaviAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5614BC12C1F56AF00884563 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.12.2;
+			};
+		};
+		B5B64D082C05D34800FCDF90 /* XCRemoteSwiftPackageReference "Glur" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:joogps/Glur.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+		B5B64D2F2C05D62000FCDF90 /* XCRemoteSwiftPackageReference "SwifterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwifterSwift/SwifterSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+		B5B64D782C06537A00FCDF90 /* XCRemoteSwiftPackageReference "ClusterMap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vospennikov/ClusterMap.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		B5B64D7F2C06564000FCDF90 /* XCRemoteSwiftPackageReference "toast-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BastiaanJansen/toast-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5614BC22C1F56AF00884563 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5614BC12C1F56AF00884563 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		B5614BC42C1F56AF00884563 /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5614BC12C1F56AF00884563 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+		B5614BCC2C1F570900884563 /* OtogeNaviAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OtogeNaviAPI;
+		};
+		B5B64D092C05D34800FCDF90 /* Glur */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B64D082C05D34800FCDF90 /* XCRemoteSwiftPackageReference "Glur" */;
+			productName = Glur;
+		};
+		B5B64D302C05D62000FCDF90 /* SwifterSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B64D2F2C05D62000FCDF90 /* XCRemoteSwiftPackageReference "SwifterSwift" */;
+			productName = SwifterSwift;
+		};
+		B5B64D792C06537A00FCDF90 /* ClusterMap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B64D782C06537A00FCDF90 /* XCRemoteSwiftPackageReference "ClusterMap" */;
+			productName = ClusterMap;
+		};
+		B5B64D7B2C06537A00FCDF90 /* ClusterMapSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B64D782C06537A00FCDF90 /* XCRemoteSwiftPackageReference "ClusterMap" */;
+			productName = ClusterMapSwiftUI;
+		};
+		B5B64D802C06564000FCDF90 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B64D7F2C06564000FCDF90 /* XCRemoteSwiftPackageReference "toast-swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5B64C792C04E0E700FCDF90 /* Project object */;
 }
