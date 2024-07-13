@@ -13,7 +13,6 @@
 		B5614BC82C1F56C300884563 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = B5614BC62C1F56C300884563 /* schema.graphqls */; };
 		B5614BCA2C1F56E900884563 /* query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B5614BC92C1F56E900884563 /* query.graphql */; };
 		B5614BCD2C1F570900884563 /* OtogeNaviAPI in Frameworks */ = {isa = PBXBuildFile; productRef = B5614BCC2C1F570900884563 /* OtogeNaviAPI */; };
-		B58425412C38323500FB62E8 /* OtogeNaviMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58425402C38323500FB62E8 /* OtogeNaviMapView.swift */; };
 		B5B64C852C04E0E700FCDF90 /* OtogeNaviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64C842C04E0E700FCDF90 /* OtogeNaviApp.swift */; };
 		B5B64C872C04E0E700FCDF90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64C862C04E0E700FCDF90 /* ContentView.swift */; };
 		B5B64C892C04E0E900FCDF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B64C882C04E0E900FCDF90 /* Assets.xcassets */; };
@@ -33,7 +32,6 @@
 		B5128A3F2C065DC000CF1A26 /* Extension+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CoreLocation.swift"; sourceTree = "<group>"; };
 		B5614BC62C1F56C300884563 /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
 		B5614BC92C1F56E900884563 /* query.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = query.graphql; sourceTree = "<group>"; };
-		B58425402C38323500FB62E8 /* OtogeNaviMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtogeNaviMapView.swift; sourceTree = "<group>"; };
 		B5B64C812C04E0E700FCDF90 /* OtogeNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtogeNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B64C842C04E0E700FCDF90 /* OtogeNaviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtogeNaviApp.swift; sourceTree = "<group>"; };
 		B5B64C862C04E0E700FCDF90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				B5B64D062C05CE6000FCDF90 /* PlaceView.swift */,
 				B5B64C882C04E0E900FCDF90 /* Assets.xcassets */,
 				B5B64C8A2C04E0E900FCDF90 /* Preview Content */,
-				B58425402C38323500FB62E8 /* OtogeNaviMapView.swift */,
 			);
 			path = OtogeNavi;
 			sourceTree = "<group>";
@@ -227,7 +224,6 @@
 				B5B64D772C05F10100FCDF90 /* VariableBlurView.swift in Sources */,
 				B5B64D7E2C06547700FCDF90 /* ContentView+DataSource.swift in Sources */,
 				B5B64D842C065A7A00FCDF90 /* LocationManager.swift in Sources */,
-				B58425412C38323500FB62E8 /* OtogeNaviMapView.swift in Sources */,
 				B5B64C852C04E0E700FCDF90 /* OtogeNaviApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
