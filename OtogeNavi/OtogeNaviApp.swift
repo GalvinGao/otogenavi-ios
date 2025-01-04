@@ -10,7 +10,14 @@ import Foundation
 import OtogeNaviAPI
 import SwiftUI
 
-let store = ApolloStore(cache: InMemoryNormalizedCache())
+func getApolloCache() -> NormalizedCache {
+    if let cache = try? SQLiteNormalizedCache(fileURL: .cachesDirectory.appending(path: "apollo.sqlite")) {
+        return cache
+    }
+    return InMemoryNormalizedCache()
+}
+
+let store = ApolloStore(cache: getApolloCache())
 let interceptorProvider = DefaultInterceptorProvider(store: store)
 let networkTransport = RequestChainNetworkTransport(
     interceptorProvider: interceptorProvider,

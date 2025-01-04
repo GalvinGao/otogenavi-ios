@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B5128A402C065DC000CF1A26 /* Extension+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5128A3F2C065DC000CF1A26 /* Extension+CoreLocation.swift */; };
-		B5614BC32C1F56AF00884563 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = B5614BC22C1F56AF00884563 /* Apollo */; };
-		B5614BC52C1F56AF00884563 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = B5614BC42C1F56AF00884563 /* ApolloWebSocket */; };
 		B5614BC82C1F56C300884563 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = B5614BC62C1F56C300884563 /* schema.graphqls */; };
 		B5614BCA2C1F56E900884563 /* query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B5614BC92C1F56E900884563 /* query.graphql */; };
 		B5614BCD2C1F570900884563 /* OtogeNaviAPI in Frameworks */ = {isa = PBXBuildFile; productRef = B5614BCC2C1F570900884563 /* OtogeNaviAPI */; };
+		B570600F2D27D002008072C4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B57060072D27D002008072C4 /* PrivacyInfo.xcprivacy */; };
+		B57060102D27D002008072C4 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570600A2D27D002008072C4 /* SQLiteDatabase.swift */; };
+		B57060112D27D002008072C4 /* SQLiteNormalizedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570600C2D27D002008072C4 /* SQLiteNormalizedCache.swift */; };
+		B57060122D27D002008072C4 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = B57060092D27D002008072C4 /* Documentation.docc */; };
+		B57060132D27D002008072C4 /* SQLiteSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570600D2D27D002008072C4 /* SQLiteSerialization.swift */; };
+		B57060142D27D002008072C4 /* SQLiteDotSwiftDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570600B2D27D002008072C4 /* SQLiteDotSwiftDatabase.swift */; };
+		B57060172D27D098008072C4 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = B57060162D27D098008072C4 /* Apollo */; };
+		B570601A2D27D10C008072C4 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = B57060192D27D10C008072C4 /* SQLite */; };
 		B5B64C852C04E0E700FCDF90 /* OtogeNaviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64C842C04E0E700FCDF90 /* OtogeNaviApp.swift */; };
 		B5B64C872C04E0E700FCDF90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B64C862C04E0E700FCDF90 /* ContentView.swift */; };
 		B5B64C892C04E0E900FCDF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B64C882C04E0E900FCDF90 /* Assets.xcassets */; };
@@ -30,8 +36,15 @@
 
 /* Begin PBXFileReference section */
 		B5128A3F2C065DC000CF1A26 /* Extension+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CoreLocation.swift"; sourceTree = "<group>"; };
+		B557520E2C9E714000A91F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B5614BC62C1F56C300884563 /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
 		B5614BC92C1F56E900884563 /* query.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = query.graphql; sourceTree = "<group>"; };
+		B57060072D27D002008072C4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B57060092D27D002008072C4 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		B570600A2D27D002008072C4 /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		B570600B2D27D002008072C4 /* SQLiteDotSwiftDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDotSwiftDatabase.swift; sourceTree = "<group>"; };
+		B570600C2D27D002008072C4 /* SQLiteNormalizedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteNormalizedCache.swift; sourceTree = "<group>"; };
+		B570600D2D27D002008072C4 /* SQLiteSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteSerialization.swift; sourceTree = "<group>"; };
 		B5B64C812C04E0E700FCDF90 /* OtogeNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtogeNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B64C842C04E0E700FCDF90 /* OtogeNaviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtogeNaviApp.swift; sourceTree = "<group>"; };
 		B5B64C862C04E0E700FCDF90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,13 +61,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B570601A2D27D10C008072C4 /* SQLite in Frameworks */,
 				B5B64D312C05D62000FCDF90 /* SwifterSwift in Frameworks */,
-				B5614BC32C1F56AF00884563 /* Apollo in Frameworks */,
 				B5614BCD2C1F570900884563 /* OtogeNaviAPI in Frameworks */,
 				B5B64D7A2C06537A00FCDF90 /* ClusterMap in Frameworks */,
 				B5B64D7C2C06537A00FCDF90 /* ClusterMapSwiftUI in Frameworks */,
-				B5614BC52C1F56AF00884563 /* ApolloWebSocket in Frameworks */,
 				B5B64D812C06564000FCDF90 /* Toast in Frameworks */,
+				B57060172D27D098008072C4 /* Apollo in Frameworks */,
 				B5B64D0A2C05D34800FCDF90 /* Glur in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,9 +84,31 @@
 			path = graphql;
 			sourceTree = "<group>";
 		};
+		B57060082D27D002008072C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B57060072D27D002008072C4 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B570600E2D27D002008072C4 /* ApolloSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				B57060082D27D002008072C4 /* Resources */,
+				B57060092D27D002008072C4 /* Documentation.docc */,
+				B570600A2D27D002008072C4 /* SQLiteDatabase.swift */,
+				B570600B2D27D002008072C4 /* SQLiteDotSwiftDatabase.swift */,
+				B570600C2D27D002008072C4 /* SQLiteNormalizedCache.swift */,
+				B570600D2D27D002008072C4 /* SQLiteSerialization.swift */,
+			);
+			path = ApolloSQLite;
+			sourceTree = "<group>";
+		};
 		B5B64C782C04E0E700FCDF90 = {
 			isa = PBXGroup;
 			children = (
+				B570600E2D27D002008072C4 /* ApolloSQLite */,
 				B5614BC72C1F56C300884563 /* graphql */,
 				B5B64C832C04E0E700FCDF90 /* OtogeNavi */,
 				B5B64C822C04E0E700FCDF90 /* Products */,
@@ -92,6 +127,7 @@
 		B5B64C832C04E0E700FCDF90 /* OtogeNavi */ = {
 			isa = PBXGroup;
 			children = (
+				B557520E2C9E714000A91F7E /* Info.plist */,
 				B5B64D752C05F0F800FCDF90 /* Views */,
 				B5B64C842C04E0E700FCDF90 /* OtogeNaviApp.swift */,
 				B5B64C862C04E0E700FCDF90 /* ContentView.swift */,
@@ -150,9 +186,9 @@
 				B5B64D792C06537A00FCDF90 /* ClusterMap */,
 				B5B64D7B2C06537A00FCDF90 /* ClusterMapSwiftUI */,
 				B5B64D802C06564000FCDF90 /* Toast */,
-				B5614BC22C1F56AF00884563 /* Apollo */,
-				B5614BC42C1F56AF00884563 /* ApolloWebSocket */,
 				B5614BCC2C1F570900884563 /* OtogeNaviAPI */,
+				B57060162D27D098008072C4 /* Apollo */,
+				B57060192D27D10C008072C4 /* SQLite */,
 			);
 			productName = OtogeNavi;
 			productReference = B5B64C812C04E0E700FCDF90 /* OtogeNavi.app */;
@@ -187,8 +223,9 @@
 				B5B64D2F2C05D62000FCDF90 /* XCRemoteSwiftPackageReference "SwifterSwift" */,
 				B5B64D782C06537A00FCDF90 /* XCRemoteSwiftPackageReference "ClusterMap" */,
 				B5B64D7F2C06564000FCDF90 /* XCRemoteSwiftPackageReference "toast-swift" */,
-				B5614BC12C1F56AF00884563 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				B5614BCB2C1F570900884563 /* XCLocalSwiftPackageReference "OtogeNaviAPI" */,
+				B57060152D27D098008072C4 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				B57060182D27D10C008072C4 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
 			);
 			productRefGroup = B5B64C822C04E0E700FCDF90 /* Products */;
 			projectDirPath = "";
@@ -207,6 +244,7 @@
 				B5614BCA2C1F56E900884563 /* query.graphql in Resources */,
 				B5B64C8C2C04E0E900FCDF90 /* Preview Assets.xcassets in Resources */,
 				B5614BC82C1F56C300884563 /* schema.graphqls in Resources */,
+				B570600F2D27D002008072C4 /* PrivacyInfo.xcprivacy in Resources */,
 				B5B64C892C04E0E900FCDF90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57060102D27D002008072C4 /* SQLiteDatabase.swift in Sources */,
+				B57060112D27D002008072C4 /* SQLiteNormalizedCache.swift in Sources */,
+				B57060122D27D002008072C4 /* Documentation.docc in Sources */,
+				B57060132D27D002008072C4 /* SQLiteSerialization.swift in Sources */,
+				B57060142D27D002008072C4 /* SQLiteDotSwiftDatabase.swift in Sources */,
 				B5B64C872C04E0E700FCDF90 /* ContentView.swift in Sources */,
 				B5B64D072C05CE6000FCDF90 /* PlaceView.swift in Sources */,
 				B5128A402C065DC000CF1A26 /* Extension+CoreLocation.swift in Sources */,
@@ -361,18 +404,19 @@
 				DEVELOPMENT_TEAM = SY8Y8N4TPM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OtogeNavi/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "OtogeNavi uses your location to provide Arcade information around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.imgg.OtogeNavi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -392,18 +436,19 @@
 				DEVELOPMENT_TEAM = SY8Y8N4TPM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OtogeNavi/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "OtogeNavi uses your location to provide Arcade information around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.imgg.OtogeNavi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -443,12 +488,20 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B5614BC12C1F56AF00884563 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+		B57060152D27D098008072C4 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.12.2;
+				minimumVersion = 1.15.3;
+			};
+		};
+		B57060182D27D10C008072C4 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.3;
 			};
 		};
 		B5B64D082C05D34800FCDF90 /* XCRemoteSwiftPackageReference "Glur" */ = {
@@ -486,19 +539,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B5614BC22C1F56AF00884563 /* Apollo */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B5614BC12C1F56AF00884563 /* XCRemoteSwiftPackageReference "apollo-ios" */;
-			productName = Apollo;
-		};
-		B5614BC42C1F56AF00884563 /* ApolloWebSocket */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B5614BC12C1F56AF00884563 /* XCRemoteSwiftPackageReference "apollo-ios" */;
-			productName = ApolloWebSocket;
-		};
 		B5614BCC2C1F570900884563 /* OtogeNaviAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OtogeNaviAPI;
+		};
+		B57060162D27D098008072C4 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B57060152D27D098008072C4 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		B57060192D27D10C008072C4 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B57060182D27D10C008072C4 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
 		};
 		B5B64D092C05D34800FCDF90 /* Glur */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -72,9 +72,10 @@ struct ContentView: View {
             }
             .mapControls {
                 MapCompass()
+                MapScaleView()
             }
             .mapStyle(.standard(elevation: .flat, emphasis: .muted, pointsOfInterest: .including([
-                .airport, .publicTransport
+                .airport, .publicTransport, .restroom
             ])))
             .readSize(onChange: { newValue in
                 dataSource.mapSize = newValue
@@ -153,7 +154,7 @@ struct ContentView: View {
         .onAppear {
             isLoading = true
 
-            apolloClient.fetch(query: OtogeNaviAPI.ListLocationsQuery(), cachePolicy: .returnCacheDataAndFetch) { result in
+            apolloClient.fetch(query: OtogeNaviAPI.ListLocationsQuery(), cachePolicy: .returnCacheDataElseFetch) { result in
                 do {
                     defer {
                         isLoading = false
@@ -167,6 +168,7 @@ struct ContentView: View {
                         )
                     }
                     Task {
+                        await self.dataSource.removeAnnotations()
                         await self.dataSource.addAnnotations(places: places)
 
                         Toast.default(
