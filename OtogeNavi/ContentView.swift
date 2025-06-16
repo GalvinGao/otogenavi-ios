@@ -23,8 +23,6 @@ struct ContentView: View {
     @Environment(\.colorScheme) var colorScheme
     @Namespace var mapScope
 
-    let clusterManager = ClusterManager<Place>()
-
     private var selectedPlace: Place? {
         if let selectedPlaceId {
             return dataSource.annotations.first(where: { $0.id == selectedPlaceId })
@@ -68,22 +66,21 @@ struct ContentView: View {
                         systemImage: "square.3.layers.3d",
                         coordinate: item.coordinate
                     )
+                    .tag(item.id)
                 }
             }
             .mapControls {
                 MapCompass()
-                MapScaleView()
             }
             .mapStyle(.standard(elevation: .flat, emphasis: .muted, pointsOfInterest: .including([
-                .airport, .publicTransport, .restroom
+                .airport, .publicTransport, .restroom,
+                .atm, .store
             ])))
             .readSize(onChange: { newValue in
                 dataSource.mapSize = newValue
             })
-            .onMapCameraChange { context in
+            .onMapCameraChange(frequency: .onEnd) { context in
                 dataSource.currentRegion = context.region.extend(by: 1.2)
-            }
-            .onMapCameraChange(frequency: .onEnd) { _ in
                 Task.detached { await dataSource.reloadAnnotations() }
             }
 

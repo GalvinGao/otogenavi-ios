@@ -23,7 +23,13 @@ extension ContentView {
     }
 
     final class DataSource: ObservableObject {
-        private let clusterManager = ClusterManager<Place>()
+        private let clusterManager = ClusterManager<Place>(
+            configuration: ClusterManager.Configuration(
+                maxZoomLevel: 14,
+                clusterPosition: .center
+            )
+        )
+
 
         @Published var annotations: [Place] = []
         @Published var clusters: [ClusterAnnotation] = []
